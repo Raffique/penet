@@ -1,1 +1,1 @@
-python ./test_rsna.py --phase all --results_dir /projectnb/ece601/kaggle-pulmonary-embolism/meganmp/PENet/data/results/ --ckpt_path /projectnb/ece601/kaggle-pulmonary-embolism/meganmp/ckpts/penet_best.pth.tar --name bu --dataset pe --data_dir /projectnb/ece601/kaggle-pulmonary-embolism/meganmp/train --gpu_ids 0
+python ./test_rsna.py --phase all --results_dir /kaggle/working/results/ --ckpt_path /kaggle/input/penet-model/penet_best.pth.tar --name bu --dataset pe --data_dir /kaggle/input/rsna-str-pulmonary-embolism-detection/train --gpu_ids 0
